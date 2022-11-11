@@ -1,0 +1,54 @@
+
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+}
+
+
+#main {
+    width: 100%;
+}
+
+#main img {
+    width: 100%;
+}
+
+#main2 {
+    width: 100%;
+    margin-top: -4px;
+}
+
+.a1 {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.a2 {
+    float: right;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+
+
+    border-radius: 30px 30px 30px 30px;
+    width: 166px;
+    height: 50px;
+
+    margin-top: -70px;
+    margin-right: 130px;
+}
+
+
+.a2>a {
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.tt {
+    margin-top: -70px;
+    display: inline;
+}
