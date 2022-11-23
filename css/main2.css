@@ -35,15 +35,15 @@ article>a {
 
 
 #youtube {
-    background: url('img/you.png') 70px center no-repeat #683a2f;
+    background: url('../img/you.png') 70px center no-repeat #683a2f;
 }
 
 #facebook {
-    background: url('img/face.png') 35px center no-repeat #683a2f;
+    background: url('../img/face.png') 35px center no-repeat #683a2f;
 }
 
 #ins {
-    background: url('img/insins.png') 30px center no-repeat #683a2f;
+    background: url('../img/insins.png') 30px center no-repeat #683a2f;
 }
 
 
