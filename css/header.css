@@ -12,10 +12,31 @@
     font-weight: 500;
 }
 
-#headbig {
+
+
+#headfirstWrap > span:nth-child(1) {
+    background:url(../img/헤드삼각형.gif) 90px 13px no-repeat;
+}
+
+#headfirstWrap > span:nth-child(2) {
+    background:url(../img/헤드삼각형.gif) 90px 13px no-repeat;
+}
+
+#headfirstWrap > span:nth-child(3) {
+    background:url(../img/헤드삼각형.gif) 75px 13px no-repeat;
+}
+
+#headfirstWrap > span:nth-child(4) {
+    background:url(../img/헤드삼각형.gif) 130px 13px no-repeat;
+}
+
+
+
+.headbig {
     font-size: 20px;
     font-weight: 900;
     color: black;
+   
 }
 
 #headsmall {
@@ -40,9 +61,7 @@
 
 
 .tt>li>a {
-    text-decoration: none;
-    background: url(../img/arrow.gif) right center no-repeat;
-}
+    text-decoration: none;}
 
 nav {
     width: 960px;
@@ -96,9 +115,10 @@ nav li a {
 
     font-size: 25px;
     font-weight: 500;
-width: 80%;
+    width: 80%;
     display: flex;
-    margin-top: 44px;
+    margin-top: 60px;
+    
 }
 
 
@@ -106,10 +126,10 @@ width: 80%;
 .headbig {
     font-size: 20px;
     font-weight: 900;
-    width: 20%;
-    background:url(../img/헤드삼각형.gif);
+    width: 20%;}
 
-}
+
+
 
 
 .headsmall {
@@ -117,8 +137,17 @@ width: 80%;
     top: 100px;
     display: block;
     height: 300px;
-    width: 20%;
-    background-color: white;}
+    width: 151px;
+    background-color: white;
+    z-index: 10;
+    
+   
+
+}
+
+
+
+
 
 .headsmall a {
     
@@ -126,6 +155,7 @@ width: 80%;
     text-decoration: none;
     font-size: 14px;
     font-weight: 900;
+   
     
 }
 
@@ -150,6 +180,30 @@ width: 80%;
 
 }
 
+#headfirstWrap .width2000{
+
+    display: none;
+    border-bottom: 0.5px solid gainsboro;
+
+}
+
+#headfirstWrap:hover .width2000{
+
+    display: block;
+
+}
+
+.width2000 {
+    background-color: white; 
+    width: 2000px; 
+    height: 300px;
+    position: absolute;
+    top: 108px;
+    left: 0;
+
+}
+
+
 .redorder{
  display: block;
  background-color:red;
@@ -162,5 +216,6 @@ width: 80%;
  font-size: 20px;
  line-height: 50px;
  font-weight: 900;
+margin-top: -10px;
 
 }
