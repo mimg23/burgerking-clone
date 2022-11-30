@@ -35,28 +35,9 @@
 .headbig {
     font-size: 20px;
     font-weight: 900;
-    color: black;
-   
-}
+    color: black;}
 
-#headsmall {
-
-    font-size: 6px;
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
+#headsmall {font-size: 6px;}
 
 
 
@@ -183,7 +164,8 @@ nav li a {
 #headfirstWrap .width2000{
 
     display: none;
-    border-bottom: 0.5px solid gainsboro;
+    box-shadow: 0px 10px 15px -15px gray;
+    
 
 }
 
@@ -200,7 +182,7 @@ nav li a {
     position: absolute;
     top: 108px;
     left: 0;
-
+    z-index: 9;
 }
 
 
@@ -218,4 +200,14 @@ nav li a {
  font-weight: 900;
 margin-top: -10px;
 
+
 }
+
+.redorder a {
+
+   text-decoration: none;
+   color: white;
+   font-style: bold;
+}
+
+
