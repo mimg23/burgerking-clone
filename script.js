@@ -7,6 +7,12 @@ let slidecount = 5;
 function moveslide(num) {
     slidewrap.style.left = -num * 960 + 'px';
     currentidx = num;
+    
+    for(var i=0 ; i<slidecount ; i++) {
+        const circle = document.querySelector(`.circle .c1:nth-child(${i+1})`);
+        if(i == num) circle.style.backgroundColor = 'red';
+        else circle.style.backgroundColor = 'white';
+    }
 }
 
 prev.addEventListener('click', function() {

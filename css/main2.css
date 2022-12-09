@@ -1,3 +1,7 @@
+
+
+
+
 article {
     width: 33.3%;
     float: left;
@@ -11,20 +15,21 @@ article {
 
 article>a {
     color: white;
-    font-weight: 900;
+    font-weight: 300;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
     text-decoration: none;
-    margin-left: 40px;
+    margin-left: 70px;
 }
 
 
 
 #section1 {
     height: 160px;
+    margin-top: -1px;
 }
 
 #section2 {
@@ -49,14 +54,14 @@ article>a {
 
 #ytb {
     background-color: white;
-    width: 70px;
+    width: 75px;
     height: 20px;
     color: black;
     margin-left: 60px;
     padding-right: 10px;
     border-radius: 5px 5px 5px 5px;
     font-size: 11px;
-    font-weight: 900;
+    font-weight: 200;
     color: black;
     display: flex;
     align-items: center;
@@ -73,7 +78,7 @@ article>a {
     padding-right: 10px;
     border-radius: 5px 5px 5px 5px;
     font-size: 11px;
-    font-weight: 900;
+    font-weight: 500;
     color: black;
     display: flex;
     align-items: center;
@@ -89,7 +94,7 @@ article>a {
     padding-right: 10px;
     border-radius: 5px 5px 5px 5px;
     font-size: 11px;
-    font-weight: 900;
+    font-weight: 500;
     color: black;
     display: flex;
     align-items: center;

@@ -4,10 +4,12 @@ footer {
     height: 385px;
 
     color: #f5ebdc;
-    font-weight: bold;
+    
     font-size: 24px;
     list-style: none;
 }
+
+
 
 #footerWrap {
     max-width: 960px;
