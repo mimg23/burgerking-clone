@@ -1,0 +1,148 @@
+
+
+
+
+article {
+    width: 33.3%;
+    float: left;
+
+    background-color: #683a2f;
+    color: white;
+    text-align: center;
+    margin-top: -4px;
+    height: 160px;
+}
+
+article>a {
+    color: white;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    margin-left: 70px;
+}
+
+
+
+#section1 {
+    height: 160px;
+    margin-top: -1px;
+}
+
+#section2 {
+    height: 250px;
+    margin-bottom: -5px;
+}
+
+
+
+#youtube {
+    background: url('../img/you.png') 70px center no-repeat #683a2f;
+}
+
+#facebook {
+    background: url('../img/face.png') 35px center no-repeat #683a2f;
+}
+
+#ins {
+    background: url('../img/insins.png') 30px center no-repeat #683a2f;
+}
+
+
+#ytb {
+    background-color: white;
+    width: 75px;
+    height: 20px;
+    color: black;
+    margin-left: 60px;
+    padding-right: 10px;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 11px;
+    font-weight: 200;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#fb {
+    background-color: white;
+    width: 90px;
+    height: 20px;
+    color: black;
+    margin-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 11px;
+    font-weight: 500;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#is {
+    background-color: white;
+    width: 90px;
+    height: 20px;
+    color: black;
+    margin-left: 0px;
+    padding-right: 10px;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 11px;
+    font-weight: 500;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#fir {
+    margin-left: 50px;
+}
+
+
+
+  /*버거킹APP 이용방법 및 딜리버리 배너*/
+  #n1 {
+    background-color: #c7a186;
+    background-image: url(img/버거킹\ 이용방법\ app.png);
+    width: 50%;
+    height: 350px;
+    color: black;
+    background-size: cover;
+
+
+}
+
+#n2 {
+    background-color: #b08972;
+    background-image: url(img/딜리버리.png);
+    background-size: cover;
+    width: 50%;
+    height: 350px;
+}
+
+#n1 {
+    background-color: #c7a186;
+    background-image: url(img/버거킹\ 이용방법\ app.png);
+    width: 50%;
+    height: 350px;
+    color: black;
+    background-size: cover;
+
+
+}
+
+#n2 {
+    background-color: #b08972;
+    background-image: url(img/딜리버리.png);
+    background-size: cover;
+    width: 50%;
+    height: 350px;
+}
+

@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header1 {
+    background-color:white;
+    width: 375.2px;
+    height: 57px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header1 > div {display: flex;
+    width: 80px;
+ justify-content: center;
+}
+
+.burgerlogo {
+
+}
+
+.headerleft {
+    display: flex;
+    align-items: center;
+}
+
+
+.redorder{
+    background-color:red;
+    width: 79.75px;
+    height: 26px;
+   
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-size: 10.625px;
+    font-weight: 900;
+    line-height: 26px;
+    margin-top: 15px;
+   
+   
+   
+   }
+   
+   .redorder a {
+   
+      text-decoration: none;
+      color: white;
+      font-style: bold;
+     
+
+
+      
+   }

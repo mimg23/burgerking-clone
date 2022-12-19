@@ -1,0 +1,19 @@
+#sectionleft {
+    background-color: #c7a186;
+    background-image: url(../img/버거킹\ 이용방법\ app.png);
+    width: 50%;
+    height: 250px;
+    color: black;
+    background-size: cover;
+
+
+}
+
+#sectionright {
+
+    background-color: #b08972;
+    background-image: url(../img/딜리버리.png);
+    background-size: cover;
+    width: 50%;
+    height: 250px;
+}

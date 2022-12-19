@@ -1,0 +1,99 @@
+.onlymain {
+    margin: 0 auto;
+    width: 375px;
+    height: 667px;
+    position: relative;
+}
+
+.slidewrap {
+    width: 4800px;
+    height: 320px;
+    position: relative;
+    left: 0;
+    top: 0;
+    transition: left 0.5s ease-out;
+
+
+}
+
+
+
+.mainimage {
+    background-color: antiquewhite;
+    width: 375px;
+    height: 375px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.slideimage {
+    float: left;
+    width: 376px;
+
+}
+
+
+
+.slideimage {
+    left: 0;
+}
+
+
+.controller {
+    position: absolute;
+
+
+}
+
+
+.slideleft {
+
+    position: absolute;
+    top: 185px;
+    left: 6px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.slideright {
+
+    position: absolute;
+    top: 180px;
+    left: 340px;
+    clear: left;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.circle {
+    display: flex;
+    position: absolute;
+    z-index: 20;
+    top: 365px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.c1 {
+    background-color: white;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 6px;
+}
+
+.c2 {
+    cursor: pointer;
+    margin: 0 6px;
+
+}
+
+
+
+.c2 img{
+    display: block;
+margin-top: 5px;}

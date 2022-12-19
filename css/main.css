@@ -1,0 +1,160 @@
+
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+
+
+    
+}
+
+
+
+.c1{
+    background-color:white;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+margin: 4px;}
+
+.c2{    margin-top: -2spx;
+        margin-left: 5px;
+        cursor: pointer;
+    
+    }
+
+.circle {
+    display: flex;
+    position: absolute;
+    z-index: 20;
+    top: 310px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+#slide{
+    width: 960px;
+    position:absolute;
+    top: 108px;
+    height: 320px;
+    overflow: hidden;
+}
+
+
+.slideleft{
+    position:absolute; 
+    top: 158px;
+    left: 10px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+
+
+
+
+.slideright {
+    position:absolute; 
+    top: 140px;
+    left: 930px;
+    clear: left;
+    z-index: 5;
+    cursor: pointer;
+}
+
+
+
+.slidewhite {
+    background-color: aqua;
+    width: 320px;
+    height: 300px;
+
+}
+
+.slidewrap {
+    width: 4800px;
+    height: 320px;
+    position: relative;
+    left: 0;
+    top: 0;
+    transition: left 0.5s ease-out;
+   
+ 
+}
+
+
+.controller span:hover {background-color:rgba(red, green, blue, alpha);}
+
+
+
+
+.slideimage {
+    float: left;
+    width: 960px;
+    }
+
+
+
+.slideimage {
+ left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main img {
+    width: 100%;
+}
+
+#main2 {
+    width: 100%;
+    margin-top: 319px;
+}
+
+.a1 {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.a2 {
+    float: right;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+
+
+    border-radius: 30px 30px 30px 30px;
+    width: 166px;
+    height: 50px;
+
+    margin-top: -70px;
+    margin-right: 130px;
+}
+
+
+.a2>a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.tt {
+    margin-top: -70px;
+    display: inline;
+}
+
+
+
+
