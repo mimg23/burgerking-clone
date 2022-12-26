@@ -1,24 +1,35 @@
+
+@font-face {
+    font-family: "타이포_다방구 B";
+    src: url("Typo_DabangguB.woff2") format("woff2");
+}
+
+* {
+    font-family: "타이포_다방구 B";
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
+
 .header1 {
-    background-color:white;
+    background-color: white;
     width: 375.2px;
     height: 57px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.header1 > div {display: flex;
+
+.header1>div {
+    display: flex;
     width: 80px;
- justify-content: center;
+    justify-content: center;
 }
 
-.burgerlogo {
-
-}
+.burgerlogo {}
 
 .headerleft {
     display: flex;
@@ -26,11 +37,11 @@
 }
 
 
-.redorder{
-    background-color:red;
+.redorder {
+    background-color: red;
     width: 79.75px;
     height: 26px;
-   
+
     border-radius: 25px;
     text-align: center;
     color: white;
@@ -38,18 +49,18 @@
     font-weight: 900;
     line-height: 26px;
     margin-top: 15px;
-   
-   
-   
-   }
-   
-   .redorder a {
-   
-      text-decoration: none;
-      color: white;
-      font-style: bold;
-     
 
 
-      
-   }
+
+}
+
+.redorder a {
+
+    text-decoration: none;
+    color: white;
+    font-style: bold;
+
+
+
+
+}

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "SDGothic";
+    src: url("../AppleSDGothicNeoR.ttf") format("truetype");
+}
+
+#lastWrap h2 S{
+    font-family: "SDGothic";
+}
+
+
+.minifooter3 {
+    color: #bba391;
+    font-size: 12.75px;
+    margin-top: 15px;
+}
+
+.bkrh2 {
+    margin-bottom: 15px;
+    color: #f5ebdc;
+    margin-left: 20px;
+}
+
+
+
+
+.divall {
+    margin-left: 20px;
+
+
+}
+
+#facebook2 {
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/푸터부분페북.png);
+    background-size: 16px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+
+
+}
+
+#instagram2 {
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/푸터부분인스타.png);
+    background-size: 16px;
+    margin-left: 42px;
+    margin-top: -16px;
+}
