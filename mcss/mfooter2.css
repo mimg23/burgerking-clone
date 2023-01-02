@@ -20,11 +20,14 @@
 .minifooter2 {
     color: #f5ebdc;
     margin-left: 180px;
+    
 }
 
 
 .footertext4 {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid;
     width: 96.31px;
     height: 32px;
@@ -39,7 +42,7 @@
 }
 
 .footertext5 {
-    display: block;
+   
     border: 1px solid;
     width: 109.9px;
     height: 32px;
@@ -49,15 +52,28 @@
     margin-top: -33px;
     line-height: 30px;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+
 
 }
+
+
 
 
 .footertext4 a {
     text-decoration: none;
     color: #f5ebdc;
+    font-weight: 900;
+    
+
 }
 .footertext5 a {
     text-decoration: none;
     color: #f5ebdc;
+    font-weight: 900;
 }
